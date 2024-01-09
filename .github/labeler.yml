@@ -1,5 +1,6 @@
 type/docs:
-- any: 
+ any: 
   - 'docs/*'
   - '**/README.md'
-  - '!vendor/**/README.md'
+- all:
+  - '!vendor/*'
