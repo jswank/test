@@ -2,4 +2,4 @@ type/docs:
 - any: 
   - 'docs/*'
   - '**/README.md'
-  - !vendor/**/README.md'
+  - '!vendor/**/README.md'
