@@ -1,3 +1,2 @@
 type/docs:
-- any: ['docs/*', '**/README.md']
-- all: ['!vendor/*']
+- any: ['docs/*', '**/README.md', '!vendor/*']
