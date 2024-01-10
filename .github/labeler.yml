@@ -1,4 +1,5 @@
 type/docs:
-- changed-files:
-  - any-glob-to-any-file: ['docs/*', '**/README.md']
-  - all-globs-to-all-files: ['!vendor/**/README.md']
+- all:
+  - changed-files:
+    - any-glob-to-any-file: ['docs/*', '**/README.md']
+    - all-globs-to-all-files: ['!vendor/**/README.md']
